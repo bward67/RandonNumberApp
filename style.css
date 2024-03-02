@@ -21,7 +21,7 @@ body {
   max-width: 370px;
   min-height: 600px;
   padding: 3rem 1rem;
-  background-image: url(images/IMG_4025.jpg);
+  background-image: url(images/IMG_4027.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   border-radius: 10px 10px 0 160px;
@@ -76,7 +76,7 @@ button {
   letter-spacing: 3px;
   padding: 0.3rem;
   cursor: pointer;
-  width: 60%;
+  width: 80%;
   font-family: inherit;
 }
 
@@ -98,5 +98,8 @@ button {
   transition: 5000ms ease-in-out;
   font-size: 0.9rem;
   text-align: center;
+  background-color: blueviolet;
+  padding: 0.3rem;
+  font-weight: bold;
   text-shadow: 1px 1px black;
 }
