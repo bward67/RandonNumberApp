@@ -20,11 +20,11 @@ body {
 .container {
   max-width: 370px;
   min-height: 600px;
-  padding: 1rem;
+  padding: 3rem 1rem;
   background-image: url(images/IMG_4025.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  border-radius: var(--br-btn);
+  border-radius: 10px 10px 0 160px;
 }
 h1 {
   line-height: 1.2;
@@ -70,7 +70,7 @@ button {
   background-color: blueviolet;
   color: #ffffff;
   border-radius: var(--br-btn);
-  margin: 1rem auto 0 auto;
+  margin: 2rem auto 1rem auto;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 3px;
