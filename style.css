@@ -14,7 +14,6 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-color: blueviolet;
-  margin-top: 3rem;
 }
 
 .container {
@@ -24,7 +23,7 @@ body {
   background-image: url(images/IMG_4027.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  border-radius: 10px 10px 0 160px;
+  border-radius: 0 0 0 160px;
 }
 h1 {
   line-height: 1.2;
@@ -76,7 +75,7 @@ button {
   letter-spacing: 3px;
   padding: 0.3rem;
   cursor: pointer;
-  width: 80%;
+  width: 65%;
   font-family: inherit;
 }
 
@@ -88,6 +87,7 @@ button {
   font-weight: bold;
   transition: 5000ms ease-in-out;
   text-shadow: 1.5px 1.5px 1.5px blueviolet;
+  margin-top: 1rem;
 }
 .extra {
   display: none;
@@ -102,4 +102,6 @@ button {
   padding: 0.3rem;
   font-weight: bold;
   text-shadow: 1px 1px black;
+  margin-top: 1.5rem;
+  border-radius: var(--br-btn);
 }
