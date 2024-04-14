@@ -8,7 +8,7 @@ const endNum = document.getElementById("end-number");
 btn.addEventListener("click", (e) => {
   e.preventDefault(); //don't forget this or the innerHTML
   //message will flash really quick and then disappear
-  //this happens because it is a form so it wants to submit by default
+  //this happens b/c it is a form so it wants to submit by default
   let min = Math.ceil(beginNum.value);
   let max = Math.floor(endNum.value);
 
@@ -25,4 +25,5 @@ function random(min, max) {
 resetBtn.addEventListener("click", () => {
   beginNum.value = "";
   endNum.value = "";
+  answer.innerHTML = "0";
 });
